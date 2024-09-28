@@ -16,7 +16,8 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    '("e27c9668d7eddf75373fa6b07475ae2d6892185f07ebed037eedf783318761d7" default))
- '(package-selected-packages '(gruber-darker-theme company lsp-ui lsp-mode)))
+ '(package-selected-packages
+   '(multiple-cursors gruber-darker-theme company lsp-ui lsp-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -24,8 +25,14 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; change autosave directory
+(setq auto-save-file-name-transforms
+  `((".*" "~/.emacs.d/autosaves/" t)))
+
 ;; set theme
 (load-theme 'gruber-darker)
+
+(require 'multiple-cursors)
 
 (require 'lsp-mode)
 (add-hook 'c-mode-hook #'lsp)
