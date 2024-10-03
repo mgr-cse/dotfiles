@@ -4,6 +4,10 @@
 (setq-default auto-save-default nil)
 (setq-default tab-width 4)
 (setq-default compilation-scroll-output t)
+(setq-default indent-tabs-mode nil)
+
+; Assuming you want your tabs to be four spaces wide
+(defvaralias 'c-basic-offset 'tab-width)
 
 ;; Disable useless UI options
 (menu-bar-mode 0)
