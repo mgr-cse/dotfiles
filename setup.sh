@@ -20,3 +20,7 @@ ln -sf "$(realpath tmux.conf)" "${HOME}/.tmux.conf"
 
 # kitty
 ln -sf "$(realpath kitty)" "${HOME}/.config/kitty"
+
+# emacs
+ln -sf "$(realpath emacs)/emacs" "${HOME}/.emacs"
+ln -sf "$(realpath emacs)/emacs.rc" "${HOME}/.emacs.rc"

@@ -2,3 +2,7 @@
 	path = nvim
 	url = https://github.com/mgr-cse/nvim-config
 	branch = main
+[submodule "emacs-config"]
+	path = emacs
+	url = https://github.com/mgr-cse/emacs-config
+	branch = main
