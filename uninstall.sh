@@ -14,5 +14,7 @@ unlink "${HOME}/.tmux.conf"
 unlink "${HOME}/.config/kitty"
 
 # emacs
-unlink "${HOME}/.emacs"
-unlink "${HOME}/.emacs.rc"
+#unlink "${HOME}/.emacs"
+#unlink "${HOME}/.emacs.rc"
+#rm -f "${HOME}/.emacs.custom.el"
+#rm -rf "${HOME}/.emacs.d"

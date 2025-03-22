@@ -22,5 +22,6 @@ ln -sf "$(realpath tmux.conf)" "${HOME}/.tmux.conf"
 ln -sf "$(realpath kitty)" "${HOME}/.config/kitty"
 
 # emacs
-ln -sf "$(realpath emacs)/emacs" "${HOME}/.emacs"
-ln -sf "$(realpath emacs)/emacs.rc" "${HOME}/.emacs.rc"
+#ln -sf "$(realpath emacs)/emacs" "${HOME}/.emacs"
+#ln -sf "$(realpath emacs)/emacs.rc" "${HOME}/.emacs.rc"
+#touch "${HOME}/.emacs.custom.el"
