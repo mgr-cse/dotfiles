@@ -1,0 +1,4 @@
+[submodule "nvim-config"]
+	path = nvim
+	url = https://github.com/mgr-cse/nvim-config
+	branch = main
